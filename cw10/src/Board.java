@@ -212,13 +212,13 @@ public class Board {
                                             if (tmp[i][j +1].getColor().equals(aliveColor)) {
                                                 living++;
                                             }
-                                            if (tmp[i -1][j +1].getColor().equals(aliveColor)) {
+                                            if (tmp[i +1][j +1].getColor().equals(aliveColor)) {
                                                 living++;
                                             }
-                                            if (tmp[i -1][j].getColor().equals(aliveColor)) {
+                                            if (tmp[i +1][j].getColor().equals(aliveColor)) {
                                                 living++;
                                             }
-                                            if (tmp[i -1][size -1].getColor().equals(aliveColor)) {
+                                            if (tmp[i +1][size -1].getColor().equals(aliveColor)) {
                                                 living++;
                                             }
                                             if (tmp[i][size -1].getColor().equals(aliveColor)) {
@@ -238,13 +238,13 @@ public class Board {
                                                 if (tmp[i][0].getColor().equals(aliveColor)) {
                                                     living++;
                                                 }
-                                                if (tmp[i -1][0].getColor().equals(aliveColor)) {
+                                                if (tmp[i +1][0].getColor().equals(aliveColor)) {
                                                     living++;
                                                 }
-                                                if (tmp[i -1][j].getColor().equals(aliveColor)) {
+                                                if (tmp[i +1][j].getColor().equals(aliveColor)) {
                                                     living++;
                                                 }
-                                                if (tmp[i -1][j -1].getColor().equals(aliveColor)) {
+                                                if (tmp[i +1][j -1].getColor().equals(aliveColor)) {
                                                     living++;
                                                 }
                                                 if (tmp[i][j -1].getColor().equals(aliveColor)) {
