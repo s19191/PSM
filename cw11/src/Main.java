@@ -14,6 +14,8 @@ public class Main {
             }
         }
         double P = Math.PI * no/n;
-        System.out.println("Pole wynosi: " + P);
+        System.out.println("Pole naszej całki obliczone metodą Monte Carlo wynosi: " + P);
+        System.out.println("Pole naszej całki obliczone metodą analityczną wynosi: 2");
+        System.out.println("Wartość bezwzględna z róznicy wartości: " + Math.abs(P - 2));
     }
 }
